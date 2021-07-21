@@ -12,6 +12,7 @@
     "dev": "vite --open",
     "build": "tsc --noEmit && vite build",
     "serve": "vite preview",
+    "test": "echo \"no test specified\" && exit 0",
     "lint": "yarn lint:type && yarn lint:eslint && yarn lint:prettier",
     "lint:type": "tsc --noEmit",
     "lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
