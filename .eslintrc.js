@@ -54,6 +54,10 @@ module.exports = {
             devDependencies: ['vite.config.ts'],
           },
         ],
+        'react/function-component-definition': [
+          'error',
+          { namedComponents: 'arrow-function' },
+        ],
       },
     },
   ],
