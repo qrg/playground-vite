@@ -21,7 +21,7 @@
     "lint:prettier:fix": "prettier --write '**/*.{js,jsx,ts,tsx,md,yml,yaml,html,json}'"
   },
   "devDependencies": {
-    "@types/react": "^18.0.16",
+    "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",
